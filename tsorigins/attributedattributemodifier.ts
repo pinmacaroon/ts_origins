@@ -1,4 +1,4 @@
-/* long ah filename you got there fam */
+/* long ah filename you got there gal */
 
 export enum AttributedAttributeModifierOperation {
     addition,
