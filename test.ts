@@ -1,6 +1,6 @@
-import { Badge } from "./tsorigins/badge.ts";
+import { Badge } from "./tsorigins/power/badge.ts";
 import { Origin } from "./tsorigins/origin.ts";
-import { Power } from "./tsorigins/power.ts";
+import { Power } from "./tsorigins/power/power.ts";
 
 const power: Power = new Power(
     'pin:hydra/heads',

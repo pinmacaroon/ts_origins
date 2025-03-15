@@ -3,7 +3,7 @@
 /* TODO add ItemStack 
     https://origins.readthedocs.io/en/latest/types/data_types/item_stack/ */
 
-import { Power } from "./power.ts";
+import { Power } from "./power/power.ts";
 
 export class Origin {
     public id: string;

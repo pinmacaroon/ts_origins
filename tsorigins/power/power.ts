@@ -1,4 +1,7 @@
 /* base power class definition file */
+import { 
+    AttributedAttributeModifier
+} from "../attributedattributemodifier.ts";
 import { Badge } from "./badge.ts";
 
 export class Power {
@@ -21,7 +24,7 @@ export class Power {
         badges?: Badge[], // optional
         loadingpriority?: number, // optional or positive whole number
     ) {
-        var namespacedsplit: string[] = namespacedid.split(/:|\//);
+        const namespacedsplit: string[] = namespacedid.split(/:|\//);
         this.namespace = namespacedsplit[0];
         this.id = namespacedsplit[namespacedsplit.length - 1];
         this.path = namespacedid.split(/:/)[1];
@@ -38,7 +41,7 @@ export class Power {
     }
 
     public compile(): object {
-        let badges: object[] = [];
+        const badges: object[] = [];
         this.badges.forEach(function (
             badge: Badge,
         ) {
@@ -53,26 +56,5 @@ export class Power {
             badges: this.badges,
         };
         return compiled;
-    }
-}
-
-export class AttributePower extends Power {
-    constructor(
-        namespacedid: string,
-        modifiers: AttributedAttributeModifier[],
-        name?: string,
-        description?: string,
-        hidden?: boolean,
-        badges?: Badge[],
-        loadingpriority?: number,
-    ) {
-        super(
-            namespacedid,
-            name,
-            description,
-            hidden,
-            badges,
-            loadingpriority
-        );
     }
 }
