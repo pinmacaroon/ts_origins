@@ -6,6 +6,7 @@ import { Function } from "./function.ts";
 import { DefaultLayer, Layer } from "./layer.ts";
 
 import fs from "node:fs";
+import fsextra from "npm:fs-extra";
 
 export class Datapack {
     public mcmeta: Mcmeta;
@@ -28,10 +29,49 @@ export class Datapack {
         this.layers = layers;
     }
 
-    public build(workspacepath: string){
-        fs.mkdir(workspacepath, {recursive: true}, function(error){
-            if (error) console.log(error.message);
-        })
+    public build(workspacepath: string, indent?: number){
+        indent = indent ?? 0;
+        fs.mkdirSync(workspacepath, {recursive: true});
+        this.origins.forEach(function(
+            origin: Origin
+        ){
+            fsextra.outputFileSync(
+                `${workspacepath}data/${origin.namespace}/origins/${origin.path}.json`,
+                JSON.stringify(origin.compile(), null, indent)
+            );
+        });
+        
+        this.powers.forEach(function(
+            power: Power
+        ){
+            fsextra.outputFileSync(
+                `${workspacepath}data/${power.namespace}/powers/${power.path}.json`,
+                JSON.stringify(power.compile(), null, indent)
+            );
+        });
+        
+        this.functions.forEach(function(
+            funct: Function
+        ){
+            fsextra.outputFileSync(
+                `${workspacepath}data/${funct.namespace}/functions/${funct.path}.mcfunction`,
+                funct.source
+            );
+        });
+        
+        this.layers.forEach(function(
+            layer: Layer
+        ){
+            fsextra.outputFileSync(
+                `${workspacepath}data/${layer.namespace}/origin_layers/${layer.path}.json`,
+                JSON.stringify(layer.compile(), null, indent)
+            );
+        });
+
+        fsextra.outputFileSync(
+            `${workspacepath}pack.mcmeta`,
+            JSON.stringify(this.mcmeta.compile(), null, indent)
+        );
     }
 }
 
@@ -57,7 +97,10 @@ export class Mcmeta {
     }
 }
 
+/* TODO finish */
 export const packformat = {
     v1_15_to_v1_16_1: 5,
-    v_1_16_2_to_v1_
+    v1_16_2_to_v1_16_5: 6,
+    v1_17_to_v1_17_1: 7,
+
 }

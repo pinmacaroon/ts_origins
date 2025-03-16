@@ -1,4 +1,6 @@
-import { AttributedAttributeModifier } from "../attributedattributemodifier.ts";
+import { 
+    AttributedAttributeModifier
+} from "../attributedattributemodifier.ts";
 import { Badge } from "./badge.ts";
 import { Power } from "./power.ts";
 

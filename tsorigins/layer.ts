@@ -4,17 +4,20 @@
 import { Origin } from "./origin.ts";
 
 export class Layer {
-
-}
-
-export class DefaultLayer extends Layer {
+    public namespace: string;
+    public path: string;
     public origins: Origin[];
-    public namespacedid: string = "origins:origins";
+    public id: string;
 
     constructor(
+        namespacedid: string,
         origins: Origin[],
     ) {
-        super();
+        const namespacedsplit: string[] = namespacedid.split(/:|\//);
+        this.namespace = namespacedsplit[0];
+        this.id = namespacedsplit[namespacedsplit.length - 1];
+        this.path = namespacedid.split(/:/)[1];
+
         this.origins = origins;
     }
 
@@ -29,5 +32,23 @@ export class DefaultLayer extends Layer {
             replace: false,
             origins: pathlist
         }
+    }
+
+}
+
+export class DefaultLayer extends Layer {
+    public override origins: Origin[];
+    public namespacedid: string = "origins:origin";
+    public override namespace: string = "origins";
+    public override path: string = "origin";
+
+    constructor(
+        origins: Origin[],
+    ) {
+        super(
+            "origins:origin",
+            origins
+        );
+        this.origins = origins;
     }
 }

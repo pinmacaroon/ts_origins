@@ -8,7 +8,7 @@ export enum AttributedAttributeModifierOperation {
 
 export class AttributedAttributeModifier {
     public attribute: string;
-    private operation: string;
+    private operation: AttributedAttributeModifierOperation;
     private value: number;
     private name: string;
 
@@ -19,9 +19,7 @@ export class AttributedAttributeModifier {
         name?: string,
     ) {
         this.attribute = attribute;
-        this.operation = AttributedAttributeModifierOperation[
-            operation
-        ];
+        this.operation = operation;
         this.value = value;
         this.name = name ?? `${this.attribute} to ${this.value}`;
     }
@@ -29,7 +27,9 @@ export class AttributedAttributeModifier {
     public compile(): object {
         return {
             attribute: this.attribute,
-            operation: this.operation,
+            operation: AttributedAttributeModifierOperation[
+                this.operation
+            ],
             value: this.value,
             name: this.name,
         }
