@@ -3,12 +3,12 @@
 export enum AttributedAttributeModifierOperation {
     addition,
     multiply_base,
-    multiply_total
+    multiply_total,
 }
 
 export class AttributedAttributeModifier {
     public attribute: string;
-    private operation: AttributedAttributeModifierOperation;
+    private operation: string;
     private value: number;
     private name: string;
 
@@ -17,10 +17,21 @@ export class AttributedAttributeModifier {
         operation: AttributedAttributeModifierOperation,
         value: number,
         name?: string,
-    ){
+    ) {
         this.attribute = attribute;
-        this.operation = operation;
+        this.operation = AttributedAttributeModifierOperation[
+            operation
+        ];
         this.value = value;
         this.name = name ?? `${this.attribute} to ${this.value}`;
+    }
+
+    public compile(): object {
+        return {
+            attribute: this.attribute,
+            operation: this.operation,
+            value: this.value,
+            name: this.name,
+        }
     }
 }

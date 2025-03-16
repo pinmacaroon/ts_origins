@@ -1,7 +1,4 @@
 /* base power class definition file */
-import { 
-    AttributedAttributeModifier
-} from "../attributedattributemodifier.ts";
 import { Badge } from "./badge.ts";
 
 export class Power {
@@ -11,10 +8,10 @@ export class Power {
 
     public type: string = "origins:simple";
     public name: string;
-    private description: string;
-    private hidden: boolean;
-    private badges: Badge[];
-    private loadingpriority: number;
+    public description: string;
+    public hidden: boolean;
+    public badges: Badge[];
+    public loadingpriority: number;
 
     constructor(
         namespacedid: string, // "namespace:path/to/power" no .json

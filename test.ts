@@ -1,28 +1,38 @@
 import { Badge } from "./tsorigins/power/badge.ts";
 import { Origin } from "./tsorigins/origin.ts";
 import { Power } from "./tsorigins/power/power.ts";
+import { AttributePower } from "./tsorigins/power/attributepower.ts";
+import { 
+    AttributedAttributeModifier,
+    AttributedAttributeModifierOperation
+} from "./tsorigins/attributedattributemodifier.ts";
+import { DefaultLayer } from "./tsorigins/layer.ts";
+import { Datapack, Mcmeta } from "./tsorigins/datapack.ts";
 
-const power: Power = new Power(
-    'pin:hydra/heads',
-    'Heads',
-    'You have multiple heads!',
-    false,
+const power: AttributePower = new AttributePower(
+    'pin:test/attributepower',
     [
-        new Badge('origins:textures/gui/badge/star.png', 'Important!')
+        new AttributedAttributeModifier(
+            'generic.max_health',
+            AttributedAttributeModifierOperation.addition,
+            4
+        )
     ],
-);
-const power2: Power = new Power(
-    'pin:hydra/immortal',
-    'Immortal',
-    'You cant die!',
+    true,
+    "Attribute power",
+    "gives you more hp for example",
     false
 );
 
 const origin: Origin = new Origin(
-    'pin:hydra/hydra',
-    [power, power2],
-    'Hydra',
-    'Multi headed snake!!',
-    3
+    "pin:hydra/hydra"
 );
-console.log(JSON.stringify(origin.compile(), null, 4));
+
+//console.log(power.compile());
+
+const layer: DefaultLayer = new DefaultLayer([origin]);
+
+const datapack: Datapack = new Datapack(
+    new Mcmeta("oriigiiiin", )
+);
+console.log(layer.compile());
