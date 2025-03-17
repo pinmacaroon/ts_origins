@@ -1,0 +1,10 @@
+export enum Space {
+    "world",
+    "local",
+    "local_horizontal",
+    "local_horizontal_normalized",
+    "velocity",
+    "velocity_normalized",
+    "velocity_horizontal",
+    "velocity_horizontal_normalized",
+}

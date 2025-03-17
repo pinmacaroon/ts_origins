@@ -3,7 +3,7 @@
 * ~~Advancement~~
 * ~~Air~~
 * ~~Attribute~~
-* Biome
+* ~~Biome~~
 * Block Collision
 * Block In Radius
 * Brightness
@@ -86,13 +86,36 @@
 * Undirected
 
 # Block Meta Condition Types
-* Offset
+* ~~Offset~~
 
-# Biome Condition Types
+# Block Condition Types
+* Adjacent
+* Attachable
+* Blast Resistance
+* Block Entity
+* Block State
+* Block
+* Command
+* Distance From Coordinates
+* Exposed To Sky
+* Fluid
+* Hardness
+* Height
+* In Tag
+* Light Blocking
+* Light Level
+* Movement Blocking
+* NBT
+* Replacable
+* Slipperiness
+* Water Loggable
+
+
+# ~~Biome Condition Types~~
 * ~~High Humidity~~
 * ~~In Tag~~
 * ~~Precipitation~~
-* Temperature
+* ~~Temperature~~
 
 # Regular Power types
 * Attribute Modify Transfer
