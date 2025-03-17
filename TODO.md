@@ -89,14 +89,14 @@
 * ~~Offset~~
 
 # Block Condition Types
-* Adjacent
-* Attachable
-* Blast Resistance
-* Block Entity
+* ~~Adjacent~~
+* ~~Attachable~~
+* ~~Blast Resistance~~
+* ~~Block Entity~~
 * Block State
-* Block
-* Command
-* Distance From Coordinates
+* ~~Block~~
+* ~~Command~~
+* ~~Distance From Coordinates~~ TODO test
 * Exposed To Sky
 * Fluid
 * Hardness
