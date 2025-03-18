@@ -1,5 +1,5 @@
 export enum Precipitation {
-    "none",
-    "rain",
-    "snow"
+    "none" = "none",
+    "rain" = "rain",
+    "snow" = "snow"
 }

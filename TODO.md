@@ -1,4 +1,7 @@
-# Entity Condition Types
+# TODO
+
+## Entity Condition Types
+
 * ~~Ability~~
 * ~~Advancement~~
 * ~~Air~~
@@ -70,14 +73,16 @@
 * XP Levels
 * XP Points
 
-# Meta Condition Types
+## Meta Condition Types
+
 * And
 * Chance
 * ~~Constant~~
 * Not
 * Or
 
-# Bi-entity Meta Condition Types
+## Bi-entity Meta Condition Types
+
 * Actor Condition
 * Both
 * Either
@@ -85,10 +90,12 @@
 * Target Condition
 * Undirected
 
-# Block Meta Condition Types
+## Block Meta Condition Types
+
 * ~~Offset~~
 
-# Block Condition Types
+## ~~Block Condition Types~~
+
 * ~~Adjacent~~
 * ~~Attachable~~
 * ~~Blast Resistance~~
@@ -103,21 +110,22 @@
 * ~~Height~~
 * ~~In Tag~~
 * ~~Light Blocking~~
-* Light Level https://origins.readthedocs.io/en/latest/types/block_condition_types/light_level/
-* Movement Blocking
-* NBT
-* Replacable
-* Slipperiness
-* Water Loggable
+* ~~Light Level~~
+* ~~Movement Blocking~~
+* ~~NBT~~
+* ~~Replacable~~
+* ~~Slipperiness~~
+* ~~Water Loggable~~
 
+## ~~Biome Condition Types~~
 
-# ~~Biome Condition Types~~
 * ~~High Humidity~~
 * ~~In Tag~~
 * ~~Precipitation~~
 * ~~Temperature~~
 
-# Regular Power types
+## Regular Power types
+
 * Attribute Modify Transfer
 * ~~Attribute~~
 * ~~Burn~~
@@ -171,7 +179,8 @@
 * Tooltip
 * Walk On Fluid
 
-# ~~Fluid Condition Types~~
+## ~~Fluid Condition Types~~
+
 * ~~Empty~~
 * ~~In Tag~~
 * ~~Still~~

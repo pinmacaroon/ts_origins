@@ -1,5 +1,5 @@
 export enum Shape {
-    cube,
-    star,
-    sphere
+    "cube" = "cube",
+    "star" = "star",
+    "sphere" = "sphere"
 }
