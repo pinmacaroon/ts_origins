@@ -97,13 +97,13 @@
 * ~~Block~~
 * ~~Command~~
 * ~~Distance From Coordinates~~ TODO test
-* Exposed To Sky
-* Fluid
-* Hardness
-* Height
-* In Tag
-* Light Blocking
-* Light Level
+* ~~Exposed To Sky~~
+* ~~Fluid~~
+* ~~Hardness~~
+* ~~Height~~
+* ~~In Tag~~
+* ~~Light Blocking~~
+* Light Level https://origins.readthedocs.io/en/latest/types/block_condition_types/light_level/
 * Movement Blocking
 * NBT
 * Replacable
@@ -170,3 +170,8 @@
 * Toggle
 * Tooltip
 * Walk On Fluid
+
+# ~~Fluid Condition Types~~
+* ~~Empty~~
+* ~~In Tag~~
+* ~~Still~~
