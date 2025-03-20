@@ -17,4 +17,13 @@ export class SpaceVector {
         this.z = z ?? 0;
         this.space = space ?? Space.world;
     }
+
+    public compile(): object {
+        return {
+            x: this.x,
+            y: this.y,
+            z: this.z,
+            space: this.space
+        };
+    }
 }

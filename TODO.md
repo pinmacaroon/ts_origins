@@ -73,24 +73,24 @@
 * XP Levels
 * XP Points
 
-## Meta Condition Types
+## ~~Meta Condition Types~~
 
 * ~~And~~
-* Chance
+* ~~Chance~~
 * ~~Constant~~
-* Not
-* Or
+* ~~Not~~
+* ~~Or~~
 
-## Bi-entity Meta Condition Types
+## ~~Bi-entity Meta Condition Types~~
 
-* Actor Condition
-* Both
-* Either
-* Invert
-* Target Condition
-* Undirected
+* ~~Actor Condition~~
+* ~~Both~~
+* ~~Either~~
+* ~~Invert~~
+* ~~Target Condition~~
+* ~~Undirected~~
 
-## Block Meta Condition Types
+## ~~Block Meta Condition Types~~
 
 * ~~Offset~~
 

@@ -1,5 +1,5 @@
 import { Condition } from "../condition.ts";
 
-export class MetaConditionType extends Condition {
+export class MetaCondition extends Condition {
     
 }

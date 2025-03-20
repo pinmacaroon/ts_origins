@@ -1,6 +1,6 @@
 import { Condition } from "../condition/condition.ts";
 import { EntityCondition } from "../condition/entity/entitycondition.ts";
-import { MetaConditionType } from "../condition/meta/metacondition.ts";
+import { MetaCondition } from "../condition/meta/metacondition.ts";
 import { Badge } from "./badge.ts";
 import { Power } from "./power.ts";
 
@@ -11,7 +11,7 @@ export class ClimbPower extends Power {
 
     constructor(
         namespacedid: string,
-        holdcondition: EntityCondition | MetaConditionType,
+        holdcondition: EntityCondition | MetaCondition,
         allowholding?: boolean,
         name?: string, 
         description?: string, 

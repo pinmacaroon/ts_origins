@@ -1,14 +1,14 @@
 import { SpaceVector } from "../../spacevector.ts";
-import { MetaConditionType } from "../meta/metacondition.ts";
+import { MetaCondition } from "../meta/metacondition.ts";
 import { BlockConditionType } from "./blockconditiontype.ts";
 
 export class OffsetCondition extends BlockConditionType{
     public override type: string = "origins:offset";
-    public condition: BlockConditionType | MetaConditionType;
+    public condition: BlockConditionType | MetaCondition;
     public xyz: SpaceVector;
 
     constructor(
-        condition: BlockConditionType | MetaConditionType,
+        condition: BlockConditionType | MetaCondition,
         xyz?: SpaceVector,
         inverted?: boolean
     ){
