@@ -75,7 +75,7 @@
 
 ## Meta Condition Types
 
-* And
+* ~~And~~
 * Chance
 * ~~Constant~~
 * Not
@@ -100,7 +100,7 @@
 * ~~Attachable~~
 * ~~Blast Resistance~~
 * ~~Block Entity~~
-* Block State
+* Block State TODO when i have the will lmao :P <https://origins.readthedocs.io/en/latest/types/block_condition_types/block_state/>
 * ~~Block~~
 * ~~Command~~
 * ~~Distance From Coordinates~~ TODO test

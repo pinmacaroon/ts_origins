@@ -50,6 +50,7 @@ export class DistanceFromCoordinates extends BlockConditionType {
     public override compile(): object {
         if(this.resultonthewrongdimension && this.roundtodigit){
             return {
+                type: this.type,
                 reference: this.reference,
                 offset: {
                     x: this.offset.x,
@@ -68,6 +69,7 @@ export class DistanceFromCoordinates extends BlockConditionType {
             };
         } else if(this.resultonthewrongdimension){
             return {
+                type: this.type,
                 reference: this.reference,
                 offset: {
                     x: this.offset.x,
@@ -85,6 +87,7 @@ export class DistanceFromCoordinates extends BlockConditionType {
             };
         } else if(this.roundtodigit){
             return {
+                type: this.type,
                 reference: this.reference,
                 offset: {
                     x: this.offset.x,
@@ -102,6 +105,7 @@ export class DistanceFromCoordinates extends BlockConditionType {
             };
         } else {
             return {
+                type: this.type,
                 reference: this.reference,
                 offset: {
                     x: this.offset.x,
