@@ -7,8 +7,8 @@
 * ~~Air~~
 * ~~Attribute~~
 * ~~Biome~~
-* Block Collision
-* Block In Radius
+* ~~Block Collision~~
+* ~~Block In Radius~~
 * Brightness
 * Climbing
 * Collided Horizontally
@@ -73,6 +73,43 @@
 * XP Levels
 * XP Points
 
+## Damage Condition Types
+
+* Amount
+* Attacker
+* Bypasses Armor (DEPRECATED)
+* Explosive (DEPRECATED)
+* Fire (DEPRECATED)
+* From Falling (DEPRECATED)
+* In Tag
+* Name
+* Out of World (DEPRECATED)
+* Projectile
+* Type
+* Unblockable (DEPRECATED)
+
+## Item Condition Types
+
+* Amount
+* Armor Value
+* Durability
+* Empty
+* Enchantable
+* Enchantment
+* Fireproof
+* Food
+* Fuel
+* Harvest Level
+* Has Power
+* Ingredient
+* Is Damageable
+* Is Equippable
+* Meat
+* NBT
+* Power Count
+* Relative Durability
+* Smeltable
+
 ## ~~Meta Condition Types~~
 
 * ~~And~~
@@ -123,6 +160,12 @@
 * ~~In Tag~~
 * ~~Precipitation~~
 * ~~Temperature~~
+
+## ~~Fluid Condition Types~~
+
+* ~~Empty~~
+* ~~In Tag~~
+* ~~Still~~
 
 ## Regular Power types
 
@@ -178,9 +221,3 @@
 * Toggle
 * Tooltip
 * Walk On Fluid
-
-## ~~Fluid Condition Types~~
-
-* ~~Empty~~
-* ~~In Tag~~
-* ~~Still~~

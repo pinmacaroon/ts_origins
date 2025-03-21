@@ -1,7 +1,7 @@
 import { Condition } from "../condition.ts";
-import { MetaCondition } from "./metacondition.ts";
+import { MetaConditionType } from "./metacondition.ts";
 
-export class OrCondition extends MetaCondition {
+export class OrCondition extends MetaConditionType {
     public override type: string = "origins:or";
     public conditions: Condition[];
 

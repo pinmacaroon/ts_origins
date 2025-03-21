@@ -1,17 +1,17 @@
 import { Condition } from "../condition/condition.ts";
-import { EntityCondition } from "../condition/entity/entitycondition.ts";
-import { MetaCondition } from "../condition/meta/metacondition.ts";
+import { EntityConditionType } from "../condition/entity/entitycondition.ts";
+import { MetaConditionType } from "../condition/meta/metacondition.ts";
 import { Badge } from "./badge.ts";
 import { Power } from "./power.ts";
 
 export class ClimbPower extends Power {
     public override type: string = "origins:climbing";
     public allowholding: boolean;
-    public holdcondition: EntityCondition | Condition;
+    public holdcondition: EntityConditionType | Condition;
 
     constructor(
         namespacedid: string,
-        holdcondition: EntityCondition | MetaCondition,
+        holdcondition: EntityConditionType | MetaConditionType,
         allowholding?: boolean,
         name?: string, 
         description?: string, 

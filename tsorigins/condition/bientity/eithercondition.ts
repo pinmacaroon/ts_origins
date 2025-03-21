@@ -1,12 +1,12 @@
-import { MetaCondition } from "../meta/metacondition.ts";
+import { MetaConditionType } from "../meta/metacondition.ts";
 import { BiEntityCondition } from "./bientityconditiontype.ts";
 
 export class EitherCondition extends BiEntityCondition {
     public override type: string = "origins:either";
-    public condition: BiEntityCondition | MetaCondition;
+    public condition: BiEntityCondition | MetaConditionType;
 
     constructor(
-        condition: BiEntityCondition | MetaCondition,
+        condition: BiEntityCondition | MetaConditionType,
         inverted?: boolean
     ){
         super(inverted);

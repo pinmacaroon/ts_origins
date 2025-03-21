@@ -1,7 +1,7 @@
 import { ComparisonOperator } from "../../enum/comparisonoperator.ts";
-import { EntityCondition } from "./entitycondition.ts";
+import { EntityConditionType } from "./entitycondition.ts";
 
-export class AirCondition extends EntityCondition{
+export class AirCondition extends EntityConditionType{
     public override type: string = "origins:air";
     public comparison: ComparisonOperator;
     public compareto: number;

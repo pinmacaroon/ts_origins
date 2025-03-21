@@ -1,6 +1,6 @@
-import { EntityCondition } from "./entitycondition.ts";
+import { EntityConditionType } from "./entitycondition.ts";
 
-export class AdvancementCondition extends EntityCondition {
+export class AdvancementCondition extends EntityConditionType {
     public override type: string = "origins:advancement";
     public advancement: string;
 

@@ -1,7 +1,7 @@
 import { PlayerAbility } from "../../enum/playerability.ts";
-import { EntityCondition } from "./entitycondition.ts";
+import { EntityConditionType } from "./entitycondition.ts";
 
-export class AbilityCondition extends EntityCondition {
+export class AbilityCondition extends EntityConditionType {
     public override type: string = "origins:ability";
     public ability: PlayerAbility;
 

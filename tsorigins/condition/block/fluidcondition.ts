@@ -1,13 +1,13 @@
 import { FluidConditionType } from "../fluid/fluidcondition.ts";
-import { MetaCondition } from "../meta/metacondition.ts";
+import { MetaConditionType } from "../meta/metacondition.ts";
 import { BlockConditionType } from "./blockconditiontype.ts";
 
 export class FluidBlockCondition extends BlockConditionType {
     public override type: string = "origins:fluid";
-    public fluidcondition: FluidConditionType | MetaCondition;
+    public fluidcondition: FluidConditionType | MetaConditionType;
 
     constructor(
-        fluidcondition: FluidConditionType | MetaCondition,
+        fluidcondition: FluidConditionType | MetaConditionType,
         inverted?: boolean
     ){
         super(inverted);

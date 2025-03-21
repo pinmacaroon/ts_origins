@@ -1,5 +1,5 @@
-import { EntityCondition } from "../condition/entity/entitycondition.ts";
-import { MetaCondition } from "../condition/meta/metacondition.ts";
+import { EntityConditionType } from "../condition/entity/entitycondition.ts";
+import { MetaConditionType } from "../condition/meta/metacondition.ts";
 import { Badge } from "./badge.ts";
 import { Power } from "./power.ts";
 
@@ -7,13 +7,13 @@ export class BurnPower extends Power {;
     public override type: string = "origins:burn";
     public interval: number;
     public burnduration: number;
-    public condition: EntityCondition | MetaCondition;
+    public condition: EntityConditionType | MetaConditionType;
 
     constructor(
         namespacedid: string, // "namespace:path/to/power" no .json
         interval: number,
         burnduration: number,
-        condition: EntityCondition | MetaCondition,
+        condition: EntityConditionType | MetaConditionType,
         name?: string, // optional
         description?: string, // optional
         hidden?: boolean, // optional

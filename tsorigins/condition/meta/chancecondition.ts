@@ -1,6 +1,6 @@
-import { MetaCondition } from "./metacondition.ts";
+import { MetaConditionType } from "./metacondition.ts";
 
-export class ChanceCondition extends MetaCondition {
+export class ChanceCondition extends MetaConditionType {
     public override type: string = "origins:chance";
     public chance: number;
 

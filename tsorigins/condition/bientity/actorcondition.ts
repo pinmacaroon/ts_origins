@@ -1,13 +1,13 @@
-import { EntityCondition } from "../entity/entitycondition.ts";
-import { MetaCondition } from "../meta/metacondition.ts";
+import { EntityConditionType } from "../entity/entitycondition.ts";
+import { MetaConditionType } from "../meta/metacondition.ts";
 import { BiEntityCondition } from "./bientityconditiontype.ts";
 
 export class ActorCondition extends BiEntityCondition {
     public override type: string = "origins:actor_condition";
-    public condition: EntityCondition | MetaCondition;
+    public condition: EntityConditionType | MetaConditionType;
 
     constructor(
-        condition: EntityCondition | MetaCondition,
+        condition: EntityConditionType | MetaConditionType,
         inverted?: boolean
     ){
         super(inverted);

@@ -1,5 +1,5 @@
 import { BiomeConditionType } from "../biome/biomecondition.ts";
-import { EntityCondition as EntityConditionType } from "./entitycondition.ts";
+import { EntityConditionType as EntityConditionType } from "./entitycondition.ts";
 
 export class BiomeCondition extends EntityConditionType {
     public override type: string = "origins:biome";

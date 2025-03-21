@@ -1,6 +1,6 @@
-import { MetaCondition } from "./metacondition.ts";
+import { MetaConditionType } from "./metacondition.ts";
 
-export class ConstantCondition extends MetaCondition {
+export class ConstantCondition extends MetaConditionType {
     public override type: string = "origins:constant";
     public value: boolean;
 
