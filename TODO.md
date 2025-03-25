@@ -9,15 +9,15 @@
 * ~~Biome~~
 * ~~Block Collision~~
 * ~~Block In Radius~~
-* Brightness
-* Climbing
-* Collided Horizontally
-* Command
-* Creative Flying
-* Daytime
-* Dimension
-* Distance From Coordinates
-* Elytra Flight Possible
+* ~~Brightness~~
+* ~~Climbing~~
+* ~~Collided Horizontally~~
+* ~~Command~~
+* ~~Creative Flying~~
+* ~~Daytime~~
+* ~~Dimension~~
+* ~~Distance From Coordinates~~
+* ~~Elytra Flight Possible~~
 * Enchantment
 * Entity Group
 * Entity Type

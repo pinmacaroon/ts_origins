@@ -1,7 +1,7 @@
-import { BlockConditionType } from "./blockconditiontype.ts";
+import { EntityConditionType } from "./entitycondition.ts";
 
-export class ExposedToSkyBlockCondition extends BlockConditionType {
-    public override type: string = "origins:exposed_to_sky";
+export class DaytimeCondition extends EntityConditionType {
+    public override type: string = "origins:daytime";
 
     constructor(
         inverted?: boolean

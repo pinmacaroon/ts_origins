@@ -1,6 +1,6 @@
 import { BlockConditionType } from "./blockconditiontype.ts";
 
-export class InTagFluidCondition extends BlockConditionType {
+export class InTagBlockCondition extends BlockConditionType {
     public override type: string = "origins:in_tag";
     public tag: string;
     constructor(

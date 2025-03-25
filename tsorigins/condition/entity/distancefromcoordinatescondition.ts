@@ -3,9 +3,9 @@ import { Reference } from "../../enum/reference.ts";
 import { Shape } from "../../enum/shape.ts";
 import { Space } from "../../enum/space.ts";
 import { SpaceVector } from "../../spacevector.ts";
-import { BlockConditionType } from "./blockconditiontype.ts";
+import { EntityConditionType } from "./entitycondition.ts";
 
-export class DistanceFromCoordinatesBlockCondition extends BlockConditionType {
+export class DistanceFromCoordinatesEntityCondition extends EntityConditionType {
     public reference: Reference;
     public offset: SpaceVector;
     public ignorex: boolean;
