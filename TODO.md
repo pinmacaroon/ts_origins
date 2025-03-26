@@ -18,9 +18,9 @@
 * ~~Dimension~~
 * ~~Distance From Coordinates~~
 * ~~Elytra Flight Possible~~
-* Enchantment
-* Entity Group
-* Entity Type
+* ~~Enchantment~~
+* ~~Entity Group~~
+* ~~Entity Type~~
 * Equipped Item
 * Exists
 * Exposed to Sky
