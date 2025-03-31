@@ -1,5 +1,9 @@
 # TODO
 
+## Misc
+
+* user defined json classes (so the wip lib can be used still)
+
 ## Entity Condition Types
 
 * ~~Ability~~
