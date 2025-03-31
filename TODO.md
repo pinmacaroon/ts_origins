@@ -28,10 +28,10 @@
 * ~~Fall Distance~~
 * ~~Fall Flying~~
 * ~~Fluid Height~~
-* Food Level
-* Gamemode
-* Glowing
-* Health
+* ~~Food Level~~
+* Gamemode (pointless)
+* ~~Glowing~~
+* ~~Health~~
 * In Block Anywhere
 * In Block
 * In Rain
