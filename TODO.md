@@ -21,13 +21,13 @@
 * ~~Enchantment~~
 * ~~Entity Group~~
 * ~~Entity Type~~
-* Equipped Item
-* Exists
-* Exposed to Sky
-* Exposed to Sun
-* Fall Distance
-* Fall Flying
-* Fluid Height
+* ~~Equipped Item~~
+* ~~Exists~~
+* ~~Exposed to Sky~~
+* ~~Exposed to Sun~~
+* ~~Fall Distance~~
+* ~~Fall Flying~~
+* ~~Fluid Height~~
 * Food Level
 * Gamemode
 * Glowing
