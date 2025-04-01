@@ -56,7 +56,7 @@
 * Power Type (pointless)
 * Power (pointless)
 * Predicate (pointless)
-* Raycast
+* Raycast (PLEASE FINISH PLES PLES)
 * Relative Health
 * Resource
 * Riding Recursive
@@ -122,7 +122,7 @@
 
 ## ~~Block Condition Types~~
 
-* Block State TODO when i have the will lmao :P <https://origins.readthedocs.io/en/latest/types/block_condition_types/block_state/>
+* Block State (TODO when i have the will lmao :P <https://origins.readthedocs.io/en/latest/types/block_condition_types/block_state/>)
 
 ## ~~Biome Condition Types~~
 
