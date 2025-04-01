@@ -36,17 +36,17 @@
 * Gamemode (pointless)
 * ~~Glowing~~
 * ~~Health~~
-* In Block Anywhere
-* In Block
-* In Rain
-* In Snow
-* In Tag
-* In Thunderstorm
-* Inventory
-* Invisible
-* Living
-* Moving
-* NBT
+* ~~In Block Anywhere~~
+* ~~In Block~~
+* ~~In Rain~~
+* ~~In Snow~~
+* ~~In Tag~~
+* ~~In Thunderstorm~~
+* Inventory (its 6 in the morning i wont mess with this madness ;-;)
+* ~~Invisible~~
+* ~~Living~~
+* ~~Moving~~
+* ~~NBT~~
 * On Block
 * On Fire
 * Origin
@@ -116,60 +116,17 @@
 
 ## ~~Meta Condition Types~~
 
-* ~~And~~
-* ~~Chance~~
-* ~~Constant~~
-* ~~Not~~
-* ~~Or~~
-
 ## ~~Bi-entity Meta Condition Types~~
-
-* ~~Actor Condition~~
-* ~~Both~~
-* ~~Either~~
-* ~~Invert~~
-* ~~Target Condition~~
-* ~~Undirected~~
 
 ## ~~Block Meta Condition Types~~
 
-* ~~Offset~~
-
 ## ~~Block Condition Types~~
 
-* ~~Adjacent~~
-* ~~Attachable~~
-* ~~Blast Resistance~~
-* ~~Block Entity~~
 * Block State TODO when i have the will lmao :P <https://origins.readthedocs.io/en/latest/types/block_condition_types/block_state/>
-* ~~Block~~
-* ~~Command~~
-* ~~Distance From Coordinates~~ TODO test
-* ~~Exposed To Sky~~
-* ~~Fluid~~
-* ~~Hardness~~
-* ~~Height~~
-* ~~In Tag~~
-* ~~Light Blocking~~
-* ~~Light Level~~
-* ~~Movement Blocking~~
-* ~~NBT~~
-* ~~Replacable~~
-* ~~Slipperiness~~
-* ~~Water Loggable~~
 
 ## ~~Biome Condition Types~~
 
-* ~~High Humidity~~
-* ~~In Tag~~
-* ~~Precipitation~~
-* ~~Temperature~~
-
 ## ~~Fluid Condition Types~~
-
-* ~~Empty~~
-* ~~In Tag~~
-* ~~Still~~
 
 ## Regular Power types
 

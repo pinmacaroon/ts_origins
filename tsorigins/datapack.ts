@@ -3,10 +3,11 @@
 import { Origin } from "./origin.ts";
 import { Power } from "./power/power.ts";
 import { Function } from "./function.ts";
-import { DefaultLayer, Layer } from "./layer.ts";
+import { Layer } from "./layer.ts";
 
 import fs from "node:fs";
 import fsextra from "npm:fs-extra";
+import { Mcmeta } from "./Mcmeta.ts";
 
 export class Datapack {
     public mcmeta: Mcmeta;
@@ -72,28 +73,6 @@ export class Datapack {
             `${workspacepath}pack.mcmeta`,
             JSON.stringify(this.mcmeta.compile(), null, indent)
         );
-    }
-}
-
-export class Mcmeta {
-    public description: string;
-    public packformat: number;
-
-    constructor(
-        description: string,
-        packformat: number
-    ){
-        this.description = description;
-        this.packformat = packformat;
-    }
-
-    public compile(): object {
-        return {
-            pack: {
-                description: this.description,
-                pack_format: this.packformat
-            }
-        }
     }
 }
 
