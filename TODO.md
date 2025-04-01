@@ -47,15 +47,15 @@
 * ~~Living~~
 * ~~Moving~~
 * ~~NBT~~
-* On Block
-* On Fire
-* Origin
-* Passenger Recursive
-* Passenger
-* Power Active
-* Power Type
-* Power
-* Predicate
+* ~~On Block~~
+* ~~On Fire~~
+* Origin (pointless)
+* ~~Passenger Recursive~~
+* ~~Passenger~~
+* ~~Power Active~~
+* Power Type (pointless)
+* Power (pointless)
+* Predicate (pointless)
 * Raycast
 * Relative Health
 * Resource
