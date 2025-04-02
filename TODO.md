@@ -57,10 +57,10 @@
 * Power (pointless)
 * Predicate (pointless)
 * Raycast (PLEASE FINISH PLES PLES)
-* Relative Health
-* Resource
-* Riding Recursive
-* Riding Root
+* ~~Relative Health~~
+* ~~Resource~~
+* ~~Riding Recursive~~
+* ~~Riding Root~~
 * Riding
 * Saturation Level
 * Scoreboard
