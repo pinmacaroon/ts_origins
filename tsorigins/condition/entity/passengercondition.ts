@@ -24,7 +24,7 @@ export class PassengerCondition extends EntityConditionType {
     public override compile(): object {
         return {
             type: this.type,
-            bientity_condition: this.bientitycondition,
+            bientity_condition: this.bientitycondition.compile(),
             comparison: ComparisonOperator[this.comparison],
             compare_to: this.compareto,
             inverted: this.inverted

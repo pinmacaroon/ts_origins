@@ -2,8 +2,8 @@ import { BiEntityCondition } from "../bientity/bientityconditiontype.ts";
 import { MetaConditionType } from "../meta/metacondition.ts";
 import { EntityConditionType } from "./entitycondition.ts";
 
-export class RidingRootCondition extends EntityConditionType {
-    public override type: string = "origins:riding_root";
+export class RidingCondition extends EntityConditionType {
+    public override type: string = "origins:riding";
     public bientitycondition?: BiEntityCondition | MetaConditionType;
 
     constructor(

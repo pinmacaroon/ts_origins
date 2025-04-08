@@ -61,9 +61,9 @@
 * ~~Resource~~
 * ~~Riding Recursive~~
 * ~~Riding Root~~
-* Riding
-* Saturation Level
-* Scoreboard
+* ~~Riding~~
+* ~~Saturation Level~~
+* ~~Scoreboard~~
 * Set Size
 * Sneaking
 * Sprinting
