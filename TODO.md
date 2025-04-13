@@ -64,18 +64,18 @@
 * ~~Riding~~
 * ~~Saturation Level~~
 * ~~Scoreboard~~
-* Set Size
-* Sneaking
-* Sprinting
-* Status Effect
-* Submerged In
-* Swimming
-* Tamed
-* Time Of Day
-* Using Effective Tool
-* Using Item
-* XP Levels
-* XP Points
+* ~~Set Size~~
+* ~~Sneaking~~
+* ~~Sprinting~~
+* ~~Status Effect~~
+* ~~Submerged In~~
+* ~~Swimming~~
+* ~~Tamed~~
+* ~~Time Of Day~~
+* ~~Using Effective Tool~~
+* ~~Using Item~~
+* ~~XP Levels~~
+* ~~XP Points~~
 
 ## Damage Condition Types
 
