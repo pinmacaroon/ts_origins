@@ -1,13 +1,13 @@
-import { EntityConditionType } from "./entitycondition.ts";
+import { ItemConditionType } from "./itemconditiontype.ts";
 
-export class NBTEntityCondition extends EntityConditionType {
+export class NBTItemCondition extends ItemConditionType{
     public override type: string = "origins:nbt";
     public nbt: string | object;
 
     constructor(
         nbt: string | object,
-        inverted?: boolean
-    ){
+        inverted? : boolean
+    ) {
         super(inverted);
         this.nbt = nbt;
     }
@@ -17,6 +17,6 @@ export class NBTEntityCondition extends EntityConditionType {
             type: this.type,
             nbt: this.nbt,
             inverted: this.inverted
-        };
+        }
     }
 }

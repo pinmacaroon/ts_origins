@@ -18,25 +18,8 @@
 
 ## Item Condition Types
 
-* Amount
-* Armor Value
-* Durability
-* Empty
-* Enchantable
-* Enchantment
-* Fireproof
-* Food
-* Fuel
-* Harvest Level
-* Has Power
-* Ingredient
-* Is Damageable
-* Is Equippable
-* Meat
-* NBT
-* Power Count
-* Relative Durability
-* Smeltable
+* Ingredient (TODO make normal construction)
+* Power Count (TODO later :P)
 
 ## ~~Meta Condition Types~~
 
