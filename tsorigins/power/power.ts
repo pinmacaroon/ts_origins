@@ -1,5 +1,4 @@
 /* base power class definition file */
-import { Badge } from "./badge.ts";
 
 export class Power {
     public id: string;
@@ -10,7 +9,7 @@ export class Power {
     public name: string;
     public description: string;
     public hidden: boolean;
-    public badges: Badge[];
+    public badges: object[];
     public loadingpriority: number;
 
     constructor(
@@ -18,7 +17,7 @@ export class Power {
         name?: string, // optional
         description?: string, // optional
         hidden?: boolean, // optional
-        badges?: Badge[], // optional
+        badges?: object[], // optional
         loadingpriority?: number, // optional or positive whole number
     ) {
         const namespacedsplit: string[] = namespacedid.split(/:|\//);
@@ -40,9 +39,9 @@ export class Power {
     public compile(): object {
         const badges: object[] = [];
         this.badges.forEach(function (
-            badge: Badge,
+            badge: object,
         ) {
-            badges.push(badge.compile());
+            badges.push(badge);
         });
         const compiled = {
             type: this.type,

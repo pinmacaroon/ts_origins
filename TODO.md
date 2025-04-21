@@ -8,10 +8,10 @@
 
 * ~~Gamemode (pointless)~~
 * Inventory (its 6 in the morning i wont mess with this madness ;-;)
-* ~~Origin (pointless)~~
-* ~~Power Type (pointless)~~
-* ~~Power (pointless)~~
-* ~~Predicate (pointless)~~
+* Origin (later)
+* Power Type (later)
+* Power (later)
+* Predicate (later)
 * Raycast (PLEASE FINISH PLES PLES)
 
 ## ~~Damage Condition Types~~
@@ -34,6 +34,103 @@
 ## ~~Biome Condition Types~~
 
 ## ~~Fluid Condition Types~~
+
+## Bi-entity Action Types
+
+* Add to Set
+* Add Velocity
+* Damage
+* Mount
+* Remove from Set
+* Set In Love
+* Tame
+* Actor Action
+* Invert
+* Target Action
+
+## Block Action Types
+
+* Add Block
+* Bonemeal
+* Execute Command
+* Explode
+* Modify Block State
+* Set Block
+* Spawn Entity
+* Area of Effect
+* Offset
+
+## Entity Action Types
+
+* Action on Set
+* Add Velocity
+* Add XP
+* Apply Effect
+* Area of Effect
+* Block Action At
+* Change Resource
+* Clear Effect
+* Crafting Table
+* Damage
+* Dismount
+* Drop Inventory
+* Emit Game Event
+* Ender Chest
+* Equipped Item Action
+* Execute Command
+* Exhaust (Action)
+* Explode
+* Extinguish
+* Feed
+* Fire Projectile
+* Gain Air
+* Give
+* Grant Advancement
+* Grant Power
+* Heal
+* Modify Death Ticks
+* Modify Inventory
+* Modify Resource
+* Modify Stat
+* Passenger Action
+* Play Sound
+* Random Teleport
+* Raycast
+* Remove Power
+* Replace Inventory
+* Revoke Advancement
+* Revoke All Powers
+* Revoke Power
+* Riding Action
+* Selector Action
+* Set Fall Distance
+* Set On Fire
+* Spawn Effect Cloud
+* Spawn Entity
+* Spawn Particles
+* Swing Hand
+* Toggle
+* Trigger Cooldown
+
+## Item Actions
+
+* Consume
+* Damage
+* Holder Action
+* Merge NBT
+* Modify
+* Remove Enchantment
+
+## Meta Action Types
+
+* And
+* Chance
+* Choice
+* Delay
+* If-Else-List
+* If-Else
+* Nothing
+* Side
 
 ## Regular Power types
 
